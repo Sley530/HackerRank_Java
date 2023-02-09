@@ -4,20 +4,20 @@ import java.security.*;
 import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
+import java.util.function.*;
 import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+
 
 public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
+        int N = Integer.parseInt(bufferedReader.readLine().trim());
 
-
-    private static final Scanner scanner = new Scanner(System.in);
-
-    public static void main(String[] args) {
-        int N = scanner.nextInt();
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-
-        scanner.close();
+        bufferedReader.close();
     }
-
-
 }
