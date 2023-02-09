@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Std_io {
+public class Std_io_2 {
 
     public static void main(String[] args)
     {
