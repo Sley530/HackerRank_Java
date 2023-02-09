@@ -19,5 +19,12 @@ public class Solution {
         int N = Integer.parseInt(bufferedReader.readLine().trim());
 
         bufferedReader.close();
+
+        if (N >= 1 && N <= 100)
+        {
+
+        }
+
     }
+
 }
