@@ -17,8 +17,5 @@ public class Std_io {
         System.out.println("Int: " + integer);
 
     }
-    }
-}
-
 
 }
