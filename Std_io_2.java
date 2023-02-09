@@ -1,6 +1,11 @@
 import java.io.*;
 import java.util.*;
 
+/**
+ * @author Sley
+ *
+ */
+
 public class Std_io_2 {
 
     public static void main(String[] args)
