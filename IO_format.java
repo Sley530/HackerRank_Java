@@ -10,12 +10,12 @@ public class IO_format {
             for (int i = 0 ; i < 3 ; i++)
             {
                 String s1 = sc.next();
-                int x=sc.nextInt();
+                int x = sc.nextInt();
 
                 System.out.printf("%s       %d\n", s1, x);
             }
 
-             System.out.println("================================");
-             sc.close();
+            System.out.println("================================");
+            sc.close();
     }
 }
