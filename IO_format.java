@@ -14,6 +14,7 @@ public class IO_format {
 
                 System.out.printf("%s       %d\n", s1, x);
             }
+
              System.out.println("================================");
 
     }
