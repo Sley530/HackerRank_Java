@@ -17,7 +17,7 @@ public class IO_format
                 System.out.printf("%-10s     %03d\n", s1, x);
             }
 
-            System.out.println("================================");
-            sc.close();
+        System.out.println("================================");
+        sc.close();
     }
 }
