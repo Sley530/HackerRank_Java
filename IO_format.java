@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
-public class IO_format {
+public class IO_format
+{
 
-    public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
 
-            System.out.println("================================");
+        System.out.println("================================");
 
             for (int i = 0; i < 3; i++)
             {
@@ -15,7 +17,7 @@ public class IO_format {
                 System.out.printf("%-10s     %03d\n", s1, x);
             }
 
-             System.out.println("================================");
-             sc.close();
+            System.out.println("================================");
+            sc.close();
     }
 }
