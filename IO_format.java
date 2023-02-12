@@ -10,7 +10,7 @@ public class IO_format {
             for(int i = 0; i < 3; i++)
             {
                 String s1=sc.next();
-                int x=sc.nextInt();
+                int x = sc.nextInt();
 
                 System.out.printf("%-10s     %03d\n", s1, x);
             }
