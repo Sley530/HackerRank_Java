@@ -16,6 +16,6 @@ public class IO_format {
             }
 
              System.out.println("================================");
-
+             sc.close();
     }
 }
