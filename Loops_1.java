@@ -19,6 +19,7 @@ public class Loops_1
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(bufferedReader.readLine().trim());
+
         if (N >= 2 && N <= 20)
         {
             for (int i = 1; i <= 10; i++)
