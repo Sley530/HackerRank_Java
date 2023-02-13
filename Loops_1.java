@@ -14,7 +14,8 @@ import static java.util.stream.Collectors.toList;
 
 public class Loops_1
 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException
+    {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(bufferedReader.readLine().trim());
